@@ -1,5 +1,5 @@
 # Activity 3a Sorting
-
+## [Youtube Video](https://youtu.be/IQuTK2qgY3M)
 
 # Questions
 ## 1. Use Big O Notation to describe the time complexity of an algorithm that takes $4N + 16 steps.$- **1 pt**
