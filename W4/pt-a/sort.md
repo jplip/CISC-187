@@ -9,7 +9,7 @@
 
 2a. If you add up all the comparisons and shifts, you get a total operations of 20. 
 <p align="center">
-<img src="image2a.jpg" alt="Drawing for question 2a" width="600" height="350">
+<img src="image2a.jpg" alt="Drawing for question 2a" width="900" height="600">
 </p>
 
 2b. At i=2, the total operations is 18. At i=3, the total operations is 14.
