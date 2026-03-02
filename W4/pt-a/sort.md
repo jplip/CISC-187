@@ -1,5 +1,5 @@
 # Activity 4a Sorting II
-
+## [Youtube Video](https://youtu.be/GpAXdTk4SOI)
 
 ## Questions
 1. Each step there is a comparison. At step 1, there is no comparison. The total work will be N-1 with each step being more work than the last with quadratic growth.
