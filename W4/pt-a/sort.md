@@ -2,15 +2,19 @@
 
 
 ## Questions
-1. 
-Since
+1. Each step there is a comparison. At step 1, there is no comparison. The total work will be N-1 with each step being more work than the last with quadratic growth.
+<p align="center">
+<img src="image1.jpg" alt="Drawing for question 1" width="600" height="350">
+</p>
 
-2a.
-We
+2a. If you add up all the comparisons and shifts, you get a total operations of 20. 
+<p align="center">
+<img src="image2a.jpg" alt="Drawing for question 2a" width="600" height="350">
+</p>
 
-2b.
+2b. At i=2, the total operations is 18. At i=3, the total operations is 14.
 
-2c.
+2c. No, because insertion will not sort the elements before 'i' like i=1.
 
 3a. The time complexity would be O(N) because the for loop goes through the string length.
 ```
