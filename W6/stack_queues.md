@@ -2,17 +2,19 @@
 
 ## Questions
 ### Question 1
+This photo illustrates each operation in the sequence for the empty statck $S$ stored in the array $S[1..6]$.
 <p align="center">
 <img src="image1.jpg" alt="Drawing for question 1" width="600" height="600">
 </p>
 
 ### Question 2
+This photo illustrates each operation in the sequence for the empty queue $Q$ stored in the array $Q[1..6]$.
 <p align="center">
 <img src="image2.jpg" alt="Drawing for question 2a" width="600" height="600">
 </p>
 
 ### Question 3
-Revised ENQUEUE(Q, x) — Detect Overflow
+Rewritten ENQUEUE($Q, x$) - Overflow
 ```
 if Q.head == Q.tail + 1 OR (Q.head == 1 AND Q.tail == Q.length)
     report "Queue Overflow"
@@ -24,7 +26,7 @@ else
         Q.tail = Q.tail + 1
 ```
 
-Revised DEQUEUE(Q) — Detect Underflow
+Rewritten DEQUEUE($Q$) - Underflow
 ```
 if Q.head == Q.tail
     report "Queue Underflow"
@@ -38,7 +40,7 @@ else
 ```
 
 ### Question 4
-INSERT-FRONT(D, x)
+INSERT($D, x$) - Beginning end
 ```
 if (D.head == 1 AND D.tail == D.length) OR (D.head == D.tail + 1)
     report "Overflow"
@@ -49,7 +51,7 @@ else
 D[D.head] = x
 ```
 
-INSERT-REAR(D, x)
+INSERT($D, x$) - Back end
 ```
 if (D.head == 1 AND D.tail == D.length) OR (D.head == D.tail + 1)
     report "Overflow"
@@ -60,7 +62,7 @@ else
     D.tail = D.tail + 1
 ```
 
-DELETE-FRONT(D)
+DELETE($D$) - Beginning end
 ```
 if D.head == D.tail
     report "Underflow"
@@ -72,7 +74,7 @@ else
 return x
 ```
 
-DELETE-REAR(D)
+DELETE($D$) - Back end
 ```
 if D.head == D.tail
     report "Underflow"
