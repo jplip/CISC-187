@@ -14,7 +14,7 @@ This photo illustrates each operation in the sequence for the empty queue $Q$ st
 </p>
 
 ### Question 3
-Rewritten ENQUEUE($Q, x$) - Overflow
+Rewritten ENQUEUE($Q, x$) for Overflow
 ```
 if Q.head == Q.tail + 1 OR (Q.head == 1 AND Q.tail == Q.length)
     error "overflow"
@@ -26,7 +26,7 @@ else
         Q.tail = Q.tail + 1
 ```
 
-Rewritten DEQUEUE($Q$) - Underflow
+Rewritten DEQUEUE($Q$) for Underflow
 ```
 if Q.head == Q.tail
     error "underflow"
