@@ -17,7 +17,7 @@ This photo illustrates each operation in the sequence for the empty queue $Q$ st
 Rewritten ENQUEUE($Q, x$) - Overflow
 ```
 if Q.head == Q.tail + 1 OR (Q.head == 1 AND Q.tail == Q.length)
-    report "Queue Overflow"
+    error "overflow"
 else
     Q[Q.tail] = x
     if Q.tail == Q.length
@@ -29,7 +29,7 @@ else
 Rewritten DEQUEUE($Q$) - Underflow
 ```
 if Q.head == Q.tail
-    report "Queue Underflow"
+    error "underflow"
 else
     x = Q[Q.head]
     if Q.head == Q.length
@@ -43,7 +43,7 @@ else
 INSERT($D, x$) - Beginning end
 ```
 if (D.head == 1 AND D.tail == D.length) OR (D.head == D.tail + 1)
-    report "Overflow"
+    error "overflow"
 if D.head == 1
     D.head = D.length
 else
@@ -54,7 +54,7 @@ D[D.head] = x
 INSERT($D, x$) - Back end
 ```
 if (D.head == 1 AND D.tail == D.length) OR (D.head == D.tail + 1)
-    report "Overflow"
+    error "overflow"
 D[D.tail] = x
 if D.tail == D.length
     D.tail = 1
@@ -65,7 +65,7 @@ else
 DELETE($D$) - Beginning end
 ```
 if D.head == D.tail
-    report "Underflow"
+    error "underflow"
 x = D[D.head]
 if D.head == D.length
     D.head = 1
@@ -77,7 +77,7 @@ return x
 DELETE($D$) - Back end
 ```
 if D.head == D.tail
-    report "Underflow"
+    error "underflow"
 if D.tail == 1
     D.tail = D.length
 else
