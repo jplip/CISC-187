@@ -227,3 +227,23 @@ int main(){
     return 0;
 }
 ```
+
+## Output
+```
+Stack elements:
+40
+30
+20
+10
+
+Top element: 30
+
+Stack elements:
+30
+20
+10
+
+Stack Underflow
+
+Process finished with exit code 0
+```
