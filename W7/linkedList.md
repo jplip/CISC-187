@@ -19,8 +19,7 @@ If memory is not deallocated after pop() operation, it will cause a memory leak 
 | Memory Allocation | Fixed | Dynamic |
 | Overflow | When full | Not likely |
 
-Arrays are a fixed size and allocates memory to what they initialized wheres a linked list is more flexible in size and memory allocation allowing for the size of memory to be just what is needed.
-This playes into stack overflow where the array will overflow if there is too many while a linked list can grow for the amount.
+Arrays are a fixed size and allocates memory to what they are initialized with, whereas a linked list is more flexible in size and memory allocation, allowing for the size of memory to be just what is needed. This plays into stack overflow, where the array will overflow if there are too many, while a linked list can grow to accommodate the amount.
 
 ### Part 4
 ```c++
