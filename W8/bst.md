@@ -4,7 +4,7 @@
 ### Question 1
 This photo illistrates the insertion of $[1, 5, 9, 2, 4, 10, 6, 3, 8]$ in order into an empty binary search tree.
 <p align="center">
-<img src="image1.jpg" alt="Drawing for question 1" width="600" height="600">
+<img src="image1.jpg" alt="Drawing for question 1" width="600" height=650">
 </p>
 
 ### Question 2
