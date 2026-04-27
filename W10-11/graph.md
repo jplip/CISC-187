@@ -4,7 +4,7 @@
 ### Question 1
 This photo illistrates a theoretical graph.
 <p align="center">
-<img src="image1.jpg" alt="Drawing for question 1" width="600" height=250">
+<img src="image1.jpg" alt="Drawing for question 1" width="600" height=450">
 </p>
 
 ### Question 2
